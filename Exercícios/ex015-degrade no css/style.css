@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{
+    text-align: center;
+    font-family: Helvetica;
+    
+}
+
+
+
+p{
+    text-align: left;
+}
+
+
+
+body{
+
+    height: 100%;
+    background-image: linear-gradient(to top, #1131EA, #7E13EB, #3813EB, #0570EB, #C513EB);
+    background-attachment: fixed;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias Dinâmicas em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador(zoom)</p>
+
+    <picture>
+
+        <source media="(max-width: 750px )" srcset="assets/P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="assets/M.png" type="image/png">
+        <img src="assets/G.png" alt="Imagens Dinâmicas">
+    </picture>
+<hr>
+    <h1>Reproduzindo Áudios em HTML5.</h1>
+
+    <audio preload="metadata" controls>
+        <source src="assets/Look Both Ways - Nathan Moore.mp3" type="audio/mpeg">
+        <source src="assets/Look Both Ways - Nathan Moore.mp3" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudios <a href="assets/Look Both Ways - Nathan Moore.mp3" download="Look Both Ways - Nathan Moore.mp3">Clique aqui para fazer o Download do Áudio</a></p>
+
+
+
+
+
+    </audio>
+</body>
+</html>
