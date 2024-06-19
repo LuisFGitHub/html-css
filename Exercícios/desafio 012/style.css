@@ -43,6 +43,16 @@ header > h1{
 
 header > h2 {
     margin-top: -35px;
+    
+}
+
+h2 > a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
     
 
