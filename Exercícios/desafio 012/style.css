@@ -54,6 +54,11 @@ h2 > a {
 a:hover{
     text-decoration: underline;
 }
+
+.poesia{
+    font-size: 2em;
+    text-align: left;
+}
     
 
 
