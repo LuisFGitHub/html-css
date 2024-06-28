@@ -9,18 +9,27 @@ body{
         font-family: "Sriracha", cursive, sans-serif;
         font-weight: 400;
         font-style: normal;
+        margin: auto;
+        
         
 
 }
 
 header {
     background-color: black ;
-    width: 100%;
+    
     margin-top: -8px;
     margin-left: -8px;
-    width: 100vw;
+    margin-right: -250px;
     display: table;
     height: 35vh;
+    max-width: 100%;
+    min-width: 150px;
+    margin: 0;
+    width: 100vw;
+    margin: auto;
+    
+    position: relative;
     
     
     
@@ -34,6 +43,8 @@ header > h1,h2{
     color: white;
     font-family: "Passion One", sans-serif;
     padding-top: 20px;
+    max-width: 100%;
+    min-width: 150px;
     
 }
 
@@ -60,6 +71,14 @@ a:hover{
 .poesia{
     font-size: 3em;
     text-align: left;
+    min-width: 150px;
+    max-width: 1000px;
+}
+
+section{
+    
+    min-width: 150px;
+    max-width: 1000px;
 }
     
 
